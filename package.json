@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/utils-nonenumerable-property-names",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Return an array of an object's own non-enumerable property names.",
   "license": "Apache-2.0",
   "author": {
