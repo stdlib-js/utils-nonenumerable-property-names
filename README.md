@@ -44,6 +44,11 @@ limitations under the License.
 <!-- eslint-disable id-length -->
 
 ```javascript
+import nonEnumerablePropertyNames from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-nonenumerable-property-names@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/utils-nonenumerable-property-names/tags). For example,
+
+```javascript
 import nonEnumerablePropertyNames from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-nonenumerable-property-names@v0.1.0-esm/index.mjs';
 ```
 
@@ -98,7 +103,7 @@ var keys = nonEnumerablePropertyNames( obj );
 <script type="module">
 
 import defineProperty from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-define-property@esm/index.mjs';
-import nonEnumerablePropertyNames from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-nonenumerable-property-names@v0.1.0-esm/index.mjs';
+import nonEnumerablePropertyNames from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-nonenumerable-property-names@esm/index.mjs';
 
 function Foo() {
     this.beep = 'boop';
