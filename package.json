@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/utils-nonenumerable-property-names",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Return an array of an object's own non-enumerable property names.",
   "license": "Apache-2.0",
   "author": {
@@ -37,8 +37,8 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/assert-is-nonenumerable-property": "^0.1.0",
-    "@stdlib/utils-property-names": "^0.1.0"
+    "@stdlib/assert-is-nonenumerable-property": "^0.2.0",
+    "@stdlib/utils-property-names": "^0.2.0"
   },
   "devDependencies": {
     "@stdlib/assert-is-array": "^0.1.1",
