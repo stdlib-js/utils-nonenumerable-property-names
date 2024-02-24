@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/utils-nonenumerable-property-names",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Return an array of an object's own non-enumerable property names.",
   "license": "Apache-2.0",
   "author": {
@@ -37,18 +37,18 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/assert-is-nonenumerable-property": "^0.2.0",
-    "@stdlib/utils-property-names": "^0.2.0"
+    "@stdlib/assert-is-nonenumerable-property": "^0.1.1",
+    "@stdlib/utils-property-names": "^0.2.1"
   },
   "devDependencies": {
-    "@stdlib/assert-is-array": "^0.1.1",
-    "@stdlib/random-base-randu": "^0.1.0",
-    "@stdlib/utils-define-property": "^0.1.1",
-    "@stdlib/utils-index-of": "^0.1.0",
+    "@stdlib/assert-is-array": "^0.2.1",
+    "@stdlib/random-base-randu": "^0.2.0",
+    "@stdlib/utils-define-property": "^0.2.1",
+    "@stdlib/utils-index-of": "^0.2.0",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git",
-    "@stdlib/bench-harness": "^0.1.2"
+    "@stdlib/bench-harness": "^0.2.0"
   },
   "engines": {
     "node": ">=0.10.0",
