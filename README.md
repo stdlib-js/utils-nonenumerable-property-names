@@ -44,6 +44,11 @@ limitations under the License.
 <!-- eslint-disable id-length -->
 
 ```javascript
+import nonEnumerablePropertyNames from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-nonenumerable-property-names@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/utils-nonenumerable-property-names/tags). For example,
+
+```javascript
 import nonEnumerablePropertyNames from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-nonenumerable-property-names@v0.2.1-deno/mod.js';
 ```
 
@@ -95,7 +100,7 @@ var keys = nonEnumerablePropertyNames( obj );
 
 ```javascript
 import defineProperty from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-define-property@deno/mod.js';
-import nonEnumerablePropertyNames from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-nonenumerable-property-names@v0.2.1-deno/mod.js';
+import nonEnumerablePropertyNames from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-nonenumerable-property-names@deno/mod.js';
 
 function Foo() {
     this.beep = 'boop';
