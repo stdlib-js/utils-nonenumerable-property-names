@@ -76,8 +76,7 @@ A total of 2 people contributed to this release. Thank you to the following cont
 
 ### BREAKING CHANGES
 
--   [`ace728f`](https://github.com/stdlib-js/stdlib/commit/ace728f330033182c28199dc9e13d75eda18cfe0): update minimum TypeScript version
--   [`ace728f`](https://github.com/stdlib-js/stdlib/commit/ace728f330033182c28199dc9e13d75eda18cfe0): update minimum TypeScript version to 4.1 
+-   [`ace728f`](https://github.com/stdlib-js/stdlib/commit/ace728f330033182c28199dc9e13d75eda18cfe0): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
