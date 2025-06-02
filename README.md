@@ -185,6 +185,11 @@ For more information on the project, filing bug reports and feature requests, an
 
 ---
 
+## License
+
+See [LICENSE][stdlib-license].
+
+
 ## Copyright
 
 Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
@@ -230,6 +235,8 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 [esm-url]: https://github.com/stdlib-js/utils-nonenumerable-property-names/tree/esm
 [esm-readme]: https://github.com/stdlib-js/utils-nonenumerable-property-names/blob/esm/README.md
 [branches-url]: https://github.com/stdlib-js/utils-nonenumerable-property-names/blob/main/branches.md
+
+[stdlib-license]: https://raw.githubusercontent.com/stdlib-js/utils-nonenumerable-property-names/main/LICENSE
 
 [ecma-262-for-in]: https://262.ecma-international.org/5.1/#sec-12.6.4
 

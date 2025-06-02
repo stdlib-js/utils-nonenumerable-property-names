@@ -1,34 +1,5 @@
+"use strict";var s=function(e,r){return function(){return r||e((r={exports:{}}).exports,r),r.exports}};var o=s(function(f,i){
+var a=require('@stdlib/utils-property-names/dist'),u=require('@stdlib/assert-is-nonenumerable-property/dist');function m(e){var r,n,t;if(e==null)return[];for(r=a(Object(e)),t=0,n=0;n<r.length;n++)u(e,r[n])&&(r[t]=r[n],t+=1);return r.length=t,r}i.exports=m
+});var p=o();module.exports=p;
 /** @license Apache-2.0 */
-
-'use strict';
-
-/**
-* Return an array of an object's own non-enumerable property names.
-*
-* @module @stdlib/utils-nonenumerable-property-names
-*
-* @example
-* var defineProperty = require( '@stdlib/utils-define-property' );
-* var nonEnumerablePropertyNames = require( '@stdlib/utils-nonenumerable-property-names' );
-*
-* var obj = {};
-*
-* defineProperty( obj, 'beep', {
-*     'configurable': false,
-*     'enumerable': false,
-*     'writable': false,
-*     'value': 'boop'
-* });
-*
-* var keys = nonEnumerablePropertyNames( obj );
-* // returns [ 'beep' ]
-*/
-
-// MODULES //
-
-var main = require( './main.js' );
-
-
-// EXPORTS //
-
-module.exports = main;
+//# sourceMappingURL=index.js.map
