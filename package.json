@@ -38,6 +38,7 @@
   },
   "dependencies": {
     "@stdlib/assert-is-nonenumerable-property": "^0.1.2",
+    "@stdlib/object-ctor": "^0.2.1",
     "@stdlib/utils-property-names": "^0.2.2"
   },
   "devDependencies": {
