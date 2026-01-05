@@ -35,7 +35,25 @@ limitations under the License.
 
 > Return an array of an object's own non-enumerable property names.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/utils-nonenumerable-property-names
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
@@ -43,32 +61,8 @@ limitations under the License.
 
 <!-- eslint-disable id-length -->
 
-To use in Observable,
-
 ```javascript
-nonEnumerablePropertyNames = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-nonenumerable-property-names@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var nonEnumerablePropertyNames = require( 'path/to/vendor/umd/utils-nonenumerable-property-names/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-nonenumerable-property-names@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.nonEnumerablePropertyNames;
-})();
-</script>
+var nonEnumerablePropertyNames = require( '@stdlib/utils-nonenumerable-property-names' );
 ```
 
 #### nonEnumerablePropertyNames( obj )
@@ -117,14 +111,9 @@ var keys = nonEnumerablePropertyNames( obj );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-define-property@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-nonenumerable-property-names@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var defineProperty = require( '@stdlib/utils-define-property' );
+var nonEnumerablePropertyNames = require( '@stdlib/utils-nonenumerable-property-names' );
 
 function Foo() {
     this.beep = 'boop';
@@ -153,11 +142,6 @@ var keys = nonEnumerablePropertyNames( obj );
 
 console.log( keys );
 // => [ 'baz' ]
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -208,7 +192,7 @@ See [LICENSE][stdlib-license].
 
 ## Copyright
 
-Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
+Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 
 </section>
 
@@ -234,8 +218,8 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 -->
 
-[chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
-[chat-url]: https://app.gitter.im/#/room/#stdlib-js_stdlib:gitter.im
+[chat-image]: https://img.shields.io/badge/zulip-join_chat-brightgreen.svg
+[chat-url]: https://stdlib.zulipchat.com
 
 [stdlib]: https://github.com/stdlib-js/stdlib
 
@@ -258,15 +242,15 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/utils/keys]: https://github.com/stdlib-js/utils-keys/tree/umd
+[@stdlib/utils/keys]: https://github.com/stdlib-js/utils-keys
 
-[@stdlib/utils/inherited-nonenumerable-property-names]: https://github.com/stdlib-js/utils-inherited-nonenumerable-property-names/tree/umd
+[@stdlib/utils/inherited-nonenumerable-property-names]: https://github.com/stdlib-js/utils-inherited-nonenumerable-property-names
 
-[@stdlib/utils/nonenumerable-property-names-in]: https://github.com/stdlib-js/utils-nonenumerable-property-names-in/tree/umd
+[@stdlib/utils/nonenumerable-property-names-in]: https://github.com/stdlib-js/utils-nonenumerable-property-names-in
 
-[@stdlib/utils/nonenumerable-property-symbols]: https://github.com/stdlib-js/utils-nonenumerable-property-symbols/tree/umd
+[@stdlib/utils/nonenumerable-property-symbols]: https://github.com/stdlib-js/utils-nonenumerable-property-symbols
 
-[@stdlib/utils/property-names]: https://github.com/stdlib-js/utils-property-names/tree/umd
+[@stdlib/utils/property-names]: https://github.com/stdlib-js/utils-property-names
 
 <!-- </related-links> -->
 
