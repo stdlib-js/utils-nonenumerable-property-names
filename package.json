@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/utils-nonenumerable-property-names",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Return an array of an object's own non-enumerable property names.",
   "license": "Apache-2.0",
   "author": {
@@ -38,14 +38,14 @@
   },
   "dependencies": {
     "@stdlib/assert-is-nonenumerable-property": "^0.1.2",
-    "@stdlib/object-ctor": "^0.2.1",
-    "@stdlib/utils-property-names": "^0.2.2"
+    "@stdlib/object-ctor": "^0.2.2",
+    "@stdlib/utils-property-names": "^0.2.3"
   },
   "devDependencies": {
-    "@stdlib/assert-is-array": "^0.2.2",
-    "@stdlib/random-base-randu": "^0.2.1",
-    "@stdlib/utils-define-property": "^0.2.4",
-    "@stdlib/utils-index-of": "^0.2.2",
+    "@stdlib/assert-is-array": "^0.2.3",
+    "@stdlib/random-base-randu": "^0.2.2",
+    "@stdlib/utils-define-property": "^0.2.5",
+    "@stdlib/utils-index-of": "^0.2.3",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git",
